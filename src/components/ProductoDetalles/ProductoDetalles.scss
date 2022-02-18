@@ -1,0 +1,38 @@
+.prod-detalles {
+    display: flex;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+
+.prod-detalles-datos {
+    padding-left: 10px;
+}
+
+.prod-detalles-dscto {
+    display: flex;
+}
+
+.detalles-dscto {
+    font-size: x-large;
+    padding: 10px 0px;
+    margin: 0px 20px 0px 0px;
+    color: red;
+}
+
+.detalles-dscto-box {
+    font-size: x-large;
+    margin: 5px 0px;
+    padding: 5px 15px;
+    display: flex;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: opx solid red;
+}
+.resaltar {
+    font-weight: bolder;
+}
+
+.datos-vertical {
+    display: block;
+}

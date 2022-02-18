@@ -1,0 +1,76 @@
+.nav-bar-botones {
+    display: flex;
+    text-align: center;
+    width: 420px;
+    height: 57px;
+    padding-top: 1px;
+}
+
+.nav-bar-boton {
+    border: 1px $color-borde-boton solid;
+    height: 54px;
+    width: 73px;
+    margin-right: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: smaller;
+    color:$color-enlaces;
+}
+
+.nav-bar-boton:hover {
+    border: $color-enlaces 1px solid;
+    color:$color-enlaces;
+    font-weight: bold;
+}
+
+.nav-bar-boton:last-child {
+    margin-right: 0px;
+}
+
+.nav-bar-boton-imagen {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-bar-boton-circulo {
+    height: 22px;
+    width: 22px;
+    border: $color-enlaces 2px solid;
+    background-color: $color-enlaces;
+    border-radius: 50%;
+    color: white;
+}
+
+.nav-bar-boton a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.nav-bar-boton-ic {
+    padding: 3px 5px 0px 5px;
+}
+
+.button-right {
+    float: right;
+}
+
+.button-left {
+    float: left;
+}
+
+.nav-bar-boton-link {
+    padding-top: 3px;
+    margin: auto;
+    height: 15px;
+    width: 60px;
+}
+
+/*
+    border: rgb(0, 0, 0) 1px solid;
+.nav-bar-boton:first-child {
+    background-color: brown;
+}
+*/

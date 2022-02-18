@@ -1,0 +1,42 @@
+.card:hover {
+    border: 2px solid $color-enlaces;
+}
+
+.productos-item-card {
+    width: 270px;
+    margin: 5px;
+    padding: 0px;
+}
+
+.productos-item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.productos-item-card-body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.productos-item-card-text-precio {
+    display: table-cell;
+    font-size: 25px;
+    width: 105px;
+}
+
+.productos-item-card-text-dscto {
+    display: table-cell;
+    font-size: 25px;
+    width: 85px;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin: 0;
+    border: red solid 1px;
+}
+
+.productos-item-card-text-importes {
+    display: table-row;
+}

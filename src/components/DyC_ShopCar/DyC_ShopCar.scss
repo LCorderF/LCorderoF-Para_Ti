@@ -1,0 +1,40 @@
+.shopcar-grid {
+    width: 100%;
+    display: table-row;
+}
+
+.shopcar-cell {
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+.negrita {
+    font-weight: bolder;
+}
+
+.button-cell {
+    width: 25px;
+}
+
+.button-actn {
+    width: 25px!important;
+    padding: 0px 0px 0px 1px!important;
+    margin: 0px 0px 0px 0px!important;
+    border: 0px!important;
+    background-color: white!important;
+}
+
+.button-actn:hover {
+    border: 1px rgb(145, 0, 0) solid;
+    border-radius: 50%;
+    background-color: rgb(145, 0, 0);
+    color: white;
+}
+
+.input-cell {
+    width: 50px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+
